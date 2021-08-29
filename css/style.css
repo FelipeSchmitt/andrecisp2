@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, lightblue);
+
+}
+.title1, .title2, .title3, .title4, .title5, .title6{
+    color: whitesmoke;
+    border-radius: 5em;
+    display: block;
+    margin: auto;
+    width: 1080px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 600;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 118, 141);
+}
+
+.video1 iframe{
+    display: block;
+    margin: auto;
+}
+
+.depoimentos{
+    width: 1160px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.depoimentos iframe{
+    margin: 8px;
+}
+
+.proposta{
+    display: block;
+    margin: auto;
+    width: 1080px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 1080px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    border-style: solid;
+    border-width: 0;
+    background-color: whitesmoke;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.5);
+    border-radius: 7px;
+}
+
+.aulas_gratis{
+    display: block;
+    margin: auto;
+    width: 1280px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 1080px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    border-style: solid;
+    border-width: 0;
+    background-color: whitesmoke;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.5);
+    border-radius: 7px;
+}
+
+
+.comprar{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 60px;
+    border-radius: 8px;background-color: yellow;
+    border-style: none;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.comprar:hover{
+    cursor: pointer;
+    background-color: #363636;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    box-shadow: 0 0 25px red;
+}
+
+.sobre{
+    width: 1160px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: block;
+    margin: auto;
+    width: 1280px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-style: solid;
+    border-width: 0;
+    background-color: white;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.5);
+}
+
+@media screen and (max-width: 65em){
+    .title1, .title2, .title3, .title4, .title5, .title6{
+        width: 95%;
+        font-size: 24px;
+        padding: 20px;
+    }
+    iframe{
+        width: 95%;
+    }
+    .depoimentos{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .depoimentos iframe{
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin: 10px;
+    }
+    .proposta{
+        width: 95%;
+    }
+    img{
+        width: 100%;
+    }
+
+    .aulas_gratis{
+        width: 95%;
+        height: 1920px;
+    }
+    .aulas_gratis iframe{
+        width: 100%;
+        height: 1700px;
+    }
+    .comprar{
+        width: 80%;
+        margin-top: 60px;
+    }
+    .adquirir_curso{
+        width: 95%;
+        height: 3020px;
+    }
+    .adquirir_curso iframe{
+        width: 100%;
+        height: 3000px;
+    }
+    .sobre{
+        width: 100%;
+        height: 720px;
+    }
+    .sobre video{
+        width: 100%;
+    }
+
+    
+}
